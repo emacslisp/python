@@ -1,0 +1,366 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<title>dict.org- search</title>
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body bgcolor=#ffffff text=#000000 onLoad="document.DICT.Query.focus()">
+<center>
+<!--
+<a style="width:260px;height:30px;vertical-align:middle;text-align:center;background-color:#000;position:absolute;z-index:5555;top:35px;left:520px;background-image:url(http://americancensorship.org/images/stop-censorship-small.png);background-position:center center;background-repeat:no-repeat;" href="http://americancensorship.org/"></a> -->
+<script type="text/javascript">var a=new Date,b=a.getHours()+a.getTimezoneOffset()/60;if(18==a.getDate()&&0==a.getMonth()&&2012==a.getFullYear()&&10<=b&&24>=b)window.location="http://sopastrike.com/strike";</script>
+<a href="http://www.dict.org/"><img src="/gifs/dict.org-300x83.gif"
+width="300" height="83" border="0" alt="dict.org"></a>
+<br>
+<H1>The DICT Development Group</H1>
+</center>
+<br>
+<form name="DICT" method="POST" action="/bin/Dict">
+    <input type="hidden" name="Form" value="Dict1">
+    <center>
+	<table><tr><td align="right">
+	<b>Search for:</b></td><td>
+	<input type="text" name="Query" size=40 value="search">
+        <br></td></tr><td align="right">
+        <b>Search type:</b></td><td align="left">
+        <select name="Strategy">
+        <option value="*" selected>Return Definitions
+        <option value="exact">Match headwords exactly
+        <option value="prefix">Match prefixes
+        <option value="nprefix">Match prefixes (skip, count)
+        <option value="substring">Match substring occurring anywhere in a headword
+        <option value="suffix">Match suffixes
+        <option value="re">POSIX 1003.2 (modern) regular expressions
+        <option value="regexp">Old (basic) regular expressions
+        <option value="soundex">Match using SOUNDEX algorithm
+        <option value="lev">Match headwords within Levenshtein distance one
+        <option value="word">Match separate words within headwords
+        <option value="first">Match the first word within headwords
+        <option value="last">Match the last word within headwords
+        </select>
+	<br></td></tr><td align="right">
+        <b>Database:</b></td><td>
+        <select name="Database">
+        <option value="*" selected>Any
+        <option value="!">First match
+        <option value="gcide">The Collaborative International Dictionary of English v.0.48
+        <option value="wn">WordNet (r) 3.0 (2006)
+        <option value="moby-thesaurus">Moby Thesaurus II by Grady Ward, 1.0
+        <option value="elements">The Elements (07Nov00)
+        <option value="vera">V.E.R.A. -- Virtual Entity of Relevant Acronyms (September 2014)
+        <option value="jargon">The Jargon File (version 4.4.7, 29 Dec 2003)
+        <option value="foldoc">The Free On-line Dictionary of Computing (18 March 2015)
+        <option value="easton">Easton's 1897 Bible Dictionary
+        <option value="hitchcock">Hitchcock's Bible Names Dictionary (late 1800's)
+        <option value="bouvier">Bouvier's Law Dictionary, Revised 6th Ed (1856)
+        <option value="devil">The Devil's Dictionary (1881-1906)
+        <option value="world02">CIA World Factbook 2002
+        <option value="gaz2k-counties">U.S. Gazetteer Counties (2000)
+        <option value="gaz2k-places">U.S. Gazetteer Places (2000)
+        <option value="gaz2k-zips">U.S. Gazetteer Zip Code Tabulation Areas (2000)
+        <option value="fd-tur-eng">Turkish-English FreeDict Dictionary ver. 0.2.1
+        <option value="fd-por-deu">Portuguese-German FreeDict Dictionary ver. 0.1.1
+        <option value="fd-nld-eng">Dutch-English Freedict Dictionary ver. 0.1.3
+        <option value="fd-eng-ara">English-Arabic FreeDict Dictionary ver. 0.6.2
+        <option value="fd-spa-eng">Spanish-English FreeDict Dictionary ver. 0.1.1
+        <option value="fd-eng-hun">English-Hungarian FreeDict Dictionary ver. 0.1
+        <option value="fd-ita-eng">Italian-English FreeDict Dictionary ver. 0.1.1
+        <option value="fd-wel-eng">Welsh-English Freedict dictionary
+        <option value="fd-eng-nld">English-Dutch FreeDict Dictionary ver. 0.1.1
+        <option value="fd-fra-eng">French-English FreeDict Dictionary ver. 0.3.4
+        <option value="fd-tur-deu">Turkish-German FreeDict Dictionary ver. 0.1.1
+        <option value="fd-swe-eng">Swedish-English FreeDict Dictionary ver. 0.1.1
+        <option value="fd-nld-fra">Nederlands-French FreeDict Dictionary ver. 0.1.1
+        <option value="fd-eng-swa">English-Swahili xFried/FreeDict Dictionary
+        <option value="fd-deu-nld">German-Dutch FreeDict Dictionary ver. 0.1.1
+        <option value="fd-fra-deu">French-German FreeDict Dictionary ver. 0.1.1
+        <option value="fd-eng-cro">English-Croatian Freedict Dictionary
+        <option value="fd-eng-ita">English-Italian FreeDict Dictionary ver. 0.1.1
+        <option value="fd-eng-lat">English-Latin FreeDict Dictionary ver. 0.1.1
+        <option value="fd-lat-eng">Latin-English FreeDict Dictionary ver. 0.1.1
+        <option value="fd-fra-nld">French-Dutch FreeDict Dictionary ver. 0.1.2
+        <option value="fd-ita-deu">Italian-German FreeDict Dictionary ver. 0.1.1
+        <option value="fd-eng-hin">English-Hindi FreeDict Dictionary ver. 1.5.1
+        <option value="fd-deu-eng">German-English FreeDict Dictionary ver. 0.3.4
+        <option value="fd-por-eng">Portuguese-English FreeDict Dictionary ver. 0.1.1
+        <option value="fd-lat-deu">Latin - German FreeDict dictionary ver. 0.4
+        <option value="fd-jpn-deu">Japanese-German FreeDict Dictionary ver. 0.1.1
+        <option value="fd-eng-deu">English-German FreeDict Dictionary ver. 0.3.6
+        <option value="fd-eng-scr">English-Serbo-Croat Freedict dictionary
+        <option value="fd-eng-rom">English-Romanian FreeDict Dictionary ver. 0.6.1
+        <option value="fd-iri-eng">Irish-English Freedict dictionary
+        <option value="fd-cze-eng">Czech-English Freedict dictionary
+        <option value="fd-scr-eng">Serbo-Croat-English Freedict dictionary
+        <option value="fd-eng-cze">English-Czech fdicts/FreeDict Dictionary
+        <option value="fd-eng-rus">English-Russian FreeDict Dictionary ver. 0.3
+        <option value="fd-afr-deu">Afrikaans-German FreeDict Dictionary ver. 0.3
+        <option value="fd-eng-por">English-Portuguese FreeDict Dictionary ver. 0.2.2
+        <option value="fd-hun-eng">Hungarian-English FreeDict Dictionary ver. 0.3.1
+        <option value="fd-eng-swe">English-Swedish FreeDict Dictionary ver. 0.1.1
+        <option value="fd-deu-ita">German-Italian FreeDict Dictionary ver. 0.1.1
+        <option value="fd-cro-eng">Croatian-English Freedict Dictionary
+        <option value="fd-dan-eng">Danish-English FreeDict Dictionary ver. 0.2.1
+        <option value="fd-eng-tur">English-Turkish FreeDict Dictionary ver. 0.2.1
+        <option value="fd-eng-spa">English-Spanish FreeDict Dictionary ver. 0.2.1
+        <option value="fd-nld-deu">Dutch-German FreeDict Dictionary ver. 0.1.1
+        <option value="fd-deu-por">German-Portuguese FreeDict Dictionary ver. 0.2.1
+        <option value="fd-swa-eng">Swahili-English xFried/FreeDict Dictionary
+        <option value="fd-hin-eng">English-Hindi Freedict Dictionary [reverse index]
+        <option value="fd-deu-fra">German-French FreeDict Dictionary ver. 0.3.1
+        <option value="fd-eng-fra">English-French FreeDict Dictionary ver. 0.1.4
+        <option value="fd-slo-eng">Slovak-English Freedict dictionary
+        <option value="fd-gla-deu">Scottish Gaelic-German FreeDict Dictionary ver. 0.1.1
+        <option value="fd-eng-wel">English-Welsh Freedict dictionary
+        <option value="fd-eng-iri">English-Irish Freedict dictionary
+        <option value="english">English Monolingual Dictionaries
+        <option value="trans">Translating Dictionaries
+        <option value="all">All Dictionaries (English-Only and Translating)
+        </select>
+	</td></tr></table>
+        <input type="submit" name="submit" value="Submit query">
+        <input type="reset" value="Reset form">
+	<p>
+	<a href="/bin/Dict?Form=Dict1&Query=00-database-info&Strategy=*&Database=*">Database copyright information</a>
+	<br>
+	<a href="/bin/Dict?Form=Dict4">Server information</a>
+        <br>
+	<font"><b><a href="/w/">Wiki: Resources, links, and other information</a></b></font>
+    </center>
+</form>
+<hr>
+<pre></pre><b>9 definitions found
+ for <a href="/bin/Dict?Form=Dict2&Database=*&Query=search">search</a></b><pre>
+</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=gcide">The Collaborative International Dictionary of English v.0.48 </a>:
+</b><pre>
+
+  Search \Search\, v. t. [imp. & p. p. <a href="/bin/Dict?Form=Dict2&Database=*&Query=Searched">Searched</a>; p. pr. & vb. n.
+     <a href="/bin/Dict?Form=Dict2&Database=*&Query=Searching">Searching</a>.] [OE. serchen, cerchen, OF. cerchier, F.
+     chercher, L. circare to go about, fr. L. circum, circa,
+     around. See <a href="/bin/Dict?Form=Dict2&Database=*&Query=Circle">Circle</a>.]
+     1. To look over or through, for the purpose of finding
+        something; to examine; to explore; as, to search the city.
+        "Search the Scriptures." --John v. 39.
+        [1913 Webster]
+  
+              They are come to search the house.    --Shak.
+        [1913 Webster]
+  
+              Search me, O God, and know my heart.  --Ps. cxxxix.
+                                                    23.
+        [1913 Webster]
+  
+     2. To inquire after; to look for; to seek.
+        [1913 Webster]
+  
+              I will both search my sheep, and seek them out.
+                                                    --Ezek. xxxiv.
+                                                    11.
+        [1913 Webster]
+  
+              Enough is left besides to search and know. --Milton.
+        [1913 Webster]
+  
+     3. To examine or explore by feeling with an instrument; to
+        probe; as, to search a wound.
+        [1913 Webster]
+  
+     4. To examine; to try; to put to the test.
+        [1913 Webster]
+  
+     <a href="/bin/Dict?Form=Dict2&Database=*&Query=To+search+out">To search out</a>, to seek till found; to find by seeking; as,
+        to search out truth.
+        [1913 Webster]
+  
+     Syn: To explore; examine; scrutinize; seek; investigate; pry
+          into; inquire.
+          [1913 Webster]
+
+</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=gcide">The Collaborative International Dictionary of English v.0.48 </a>:
+</b><pre>
+
+  Search \Search\, v. i.
+     To seek; to look for something; to make inquiry, exploration,
+     or examination; to hunt.
+     [1913 Webster]
+  
+           Once more search with me.                --Shak.
+     [1913 Webster]
+  
+           It sufficeth that they have once with care sifted the
+           matter, and searched into all the particulars. --Locke.
+     [1913 Webster]
+
+</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=gcide">The Collaborative International Dictionary of English v.0.48 </a>:
+</b><pre>
+
+  Search \Search\, n. [Cf. OF. cerche. See <a href="/bin/Dict?Form=Dict2&Database=*&Query=Search">Search</a>, v. t.]
+     The act of seeking or looking for something; quest; inquiry;
+     pursuit for finding something; examination.
+     [1913 Webster]
+  
+           Thus the orb he roamed
+           With narrow search, and with inspection deep
+           Considered every creature.               --Milton.
+     [1913 Webster]
+  
+           Nor did my search of liberty begin
+           Till my black hairs were changed upon my chin.
+                                                    --Dryden.
+     [1913 Webster]
+  
+     <a href="/bin/Dict?Form=Dict2&Database=*&Query=Right+of+search">Right of search</a> (Mar. Law), the right of the lawfully
+        commissioned cruisers of belligerent nations to examine
+        and search private merchant vessels on the high seas, for
+        the enemy's property or for articles contraband of war.
+  
+     <a href="/bin/Dict?Form=Dict2&Database=*&Query=Search+warrant">Search warrant</a> (Law), a warrant legally issued, authorizing
+        an examination or search of a house, or other place, for
+        goods stolen, secreted, or concealed.
+        [1913 Webster]
+  
+     Syn: Scrutiny; examination; exploration; investigation;
+          research; inquiry; quest; pursuit.
+          [1913 Webster]
+
+</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=wn">WordNet (r) 3.0 (2006) </a>:
+</b><pre>
+
+  search
+      n 1: the activity of looking thoroughly in order to find
+           something or someone [syn: <a href="/bin/Dict?Form=Dict2&Database=*&Query=search">search</a>, <a href="/bin/Dict?Form=Dict2&Database=*&Query=hunt">hunt</a>, <a href="/bin/Dict?Form=Dict2&Database=*&Query=hunting">hunting</a>]
+      2: an investigation seeking answers; "a thorough search of the
+         ledgers revealed nothing"; "the outcome justified the search"
+      3: an operation that determines whether one or more of a set of
+         items has a specified property; "they wrote a program to do a
+         table lookup" [syn: <a href="/bin/Dict?Form=Dict2&Database=*&Query=search">search</a>, <a href="/bin/Dict?Form=Dict2&Database=*&Query=lookup">lookup</a>]
+      4: the examination of alternative hypotheses; "his search for a
+         move that would avoid checkmate was unsuccessful"
+      5: boarding and inspecting a ship on the high seas; "right of
+         search"
+      v 1: try to locate or discover, or try to establish the
+           existence of; "The police are searching for clues"; "They
+           are searching for the missing man in the entire county"
+           [syn: <a href="/bin/Dict?Form=Dict2&Database=*&Query=search">search</a>, <a href="/bin/Dict?Form=Dict2&Database=*&Query=seek">seek</a>, <a href="/bin/Dict?Form=Dict2&Database=*&Query=look+for">look for</a>]
+      2: search or seek; "We looked all day and finally found the
+         child in the forest"; "Look elsewhere for the perfect gift!"
+         [syn: <a href="/bin/Dict?Form=Dict2&Database=*&Query=search">search</a>, <a href="/bin/Dict?Form=Dict2&Database=*&Query=look">look</a>]
+      3: inquire into; "the students had to research the history of
+         the Second World War for their history project"; "He searched
+         for information on his relatives on the web"; "Scientists are
+         exploring the nature of consciousness" [syn: <a href="/bin/Dict?Form=Dict2&Database=*&Query=research">research</a>,
+         <a href="/bin/Dict?Form=Dict2&Database=*&Query=search">search</a>, <a href="/bin/Dict?Form=Dict2&Database=*&Query=explore">explore</a>]
+      4: subject to a search; "The police searched the suspect"; "We
+         searched the whole house for the missing keys"
+
+</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=moby-thesaurus">Moby Thesaurus II by Grady Ward, 1.0 </a>:
+</b><pre>
+
+  127 Moby Thesaurus words for "search":
+     analysis, angle for, ask for, beat, beat about for,
+     beat the bushes, burrow, cast about, chase, check, chivy, comb,
+     delve, delve for, delve into, dig, dig for, dig into, dog,
+     domiciliary visit, dragnet, enquiry, examination, examine,
+     exploration, explore, fan, fathom, fish for, follow, follow up,
+     forage, frisk, give chase, go after, go gunning for, go into,
+     go through, grub, gun for, hollo after, hound, house-search, hunt,
+     hunt for, hunt up, hunting, indagate, inquire of, inquiry, inspect,
+     inspection, investigate, look, look around, look at, look for,
+     look into, look over, look round, look through, look up,
+     make after, nose around, peer into, perquisition, perusal, plumb,
+     poke, poke around, poke into, posse, probe, prosecute, prowl after,
+     pry, pry into, pursual, pursuance, pursue, pursuing, pursuit,
+     quest, quest after, raise the hunt, rake, ransack, ransacking,
+     research, researching, root, rummage, run after, run down, scan,
+     scour, scouring, scout out, scrimmage, scrutinize, scrutiny,
+     search for, search into, search party, search through,
+     search warrant, search-and-destroy operation, searching, see to,
+     seek, seek for, seek out, seeking, shake down, sift, sifting,
+     skirmish, smell around, sound, stalk, stalking, still hunt,
+     still-hunt, study, take out after, try to find, turning over
+  
+  
+
+</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=foldoc">The Free On-line Dictionary of Computing (18 March 2015) </a>:
+</b><pre>
+
+  search
+  
+     1. <web> <a href="/bin/Dict?Form=Dict2&Database=*&Query=web+search">web search</a>.
+  
+     2. <computability> <a href="/bin/Dict?Form=Dict2&Database=*&Query=search+problem">search problem</a>.
+  
+     3. <theory> <a href="/bin/Dict?Form=Dict2&Database=*&Query=search+algorithm">search algorithm</a>.
+  
+
+</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=bouvier">Bouvier's Law Dictionary, Revised 6th Ed (1856) </a>:
+</b><pre>
+
+  SEARCH, RIGHT OF, mar. law. The right existing in a belligerent to examine 
+  and inspect the papers of a neutral vessel at sea. On the continent of 
+  Europe, this is called the right of visit. Dalloz, Dict. mots Prises 
+  Maritimes, n. 104-111. 
+       2. The right does not extend to examine the cargo; nor does it extend 
+  to a ship of war, it being strictly confined to the searching of merchant 
+  vessels. The exercise of the right is to prevent the commerce of contraband 
+  goods. Although frequently resisted by powerful neutral nations, yet this 
+  right appears now to be fixed beyond contravention. The penalty for 
+  violently resisting this right is the confiscation of the property so 
+  withheld from visitation. Unless in extreme cases of gross abuse of his 
+  right by a belligerent, the neutral has no right to resist a search. 1 Kent, 
+  Com. 154; 2 Bro. Civ. and Adm. Law, 319; Mann. Comm. B. 3, c. 11. 
+  
+  
+
+</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=bouvier">Bouvier's Law Dictionary, Revised 6th Ed (1856) </a>:
+</b><pre>
+
+  SEARCH, crim. law. An examination of a man's house, premises or person, for 
+  the purpose of discovering proof of his guilt in relation to some crime or 
+  misdemeanor of which be is accused. 
+       2. The constitution of the United. States, amendments, art. 4, protects 
+  the people from unreasonable searches and seizures. 3 Story, Const. Sec. 
+  1895; Rawle, Const. ch. 10, p. 127; 10 John. R. 263; 11 John. R. 500; 3 
+  Cranch, 447. 
+       3. By the act of March 2, 1799, s. 68, 1 Story's L. U. S. 632, it is 
+  enacted, that every collector, naval officer, and surveyor, or other person 
+  specially appointed, by either of them, for that purpose, shall have fall 
+  power and authority to enter any ship or vessel, in which they shall have 
+  reason to suspect any goods, wares, or merchandise, subject to duty, are 
+  concealed, and therein to search for, seize, and secure any such goods, 
+  wares, or merchandise; and if they shall have cause to suspect a concealment 
+  thereof in any particular dwelling house, store, building, or other place 
+  they or either of them shall; upon proper application, on oath, to any 
+  justice of the peace, be entitled to a warrant to enter such house, store, 
+  or other place, (in the day time only, and there to search for such goods; 
+  and if any shall be found, to seize and secure the same for trial; and all 
+  such goods, wares, and merchandise, on which the duties shall not have been 
+  paid, or secured to be paid, shall be forfeited. 
+  
+  
+
+</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=bouvier">Bouvier's Law Dictionary, Revised 6th Ed (1856) </a>:
+</b><pre>
+
+  SEARCH, practice. An examination made in the proper lien office for 
+  mortgages, liens, judgments, or other encumbrances, against real estate. The 
+  certificate given by the officer as to the result of such examination is 
+  also called a search. 
+       2. Conveyancers and others who cause searches to be made ought to be 
+  very careful that they should be correct, with regard, 1. To the time during 
+  which the person against whom the search has been made owned the premises. 
+  2. To the property searched against, which ought to be properly described. 
+  3. To the form of the certificate of search. 
+  
+  
+</pre>
+<hr>
+    <center>
+    <font size="-1">
+	Questions or comments about this site?
+	Contact <a href="mailto:webmaster@dict.org">webmaster@dict.org</a>
+	<br>
+    </font>
+</center>
+</body>
+</html>
