@@ -6,10 +6,10 @@
 # textString = html2text(htmlString);
 # print textString;
 
-import urllib
+import urllib.request
 search = 'search'
 link = "http://www.dict.org/bin/Dict?Form=Dict1&Query=" + search + "&Strategy=*&Database=*";
 #"http://dict.cn/mini.php?q=" + searchString
-f = urllib.urlopen(link)           
+f = urllib.request.urlopen(link)           
 myfile = f.read()  
-print myfile
+print(myfile)
