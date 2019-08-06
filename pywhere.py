@@ -1,6 +1,8 @@
 import sys
 import os
 import os.path
+from os import listdir
+from os.path import isfile, join
 
 def main():
     devArray = sys.argv
@@ -19,11 +21,14 @@ def main():
 
     pathDict = {}
     for p in paths:
-        targetFilePath = p + pathSpliter + commandName
-        if targetFilePath in pathDict:
-            continue
-        pathDict[targetFilePath] = 1
-        if os.path.isfile(targetFilePath):
-            print(targetFilePath)
+        if os.path.exists(p):
+            for fileName in listdir(p):
+                targetFilePath = join(p, fileName)
+                if isfile(targetFilePath) and commandName in fileName:
+                    if targetFilePath in pathDict:
+                        continue
+                    pathDict[targetFilePath] = 1
+
+                    print(targetFilePath)
 
 main()
