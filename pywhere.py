@@ -8,7 +8,7 @@ def main():
     devArray = sys.argv
 
     if len(devArray) != 2:
-        print('pywhere <file>')
+        print('pywhere <command-name>')
         return
     commandName = devArray[1]
     path = os.environ['PATH']
