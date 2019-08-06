@@ -1,9 +1,9 @@
 import sys
 
-def func():
+def main():
     devArray = sys.argv
 
-    if len(devArray) > 2:
+    if len(devArray) != 2:
         print('pycat <file>')
         return
 
@@ -13,4 +13,4 @@ def func():
         print(ewText)
 
 
-func()
+main()
