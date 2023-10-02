@@ -2,7 +2,7 @@
 from threading import Timer
 
 def hello():
-    print "hello, timer"
+    print("hello, timer")
 
 t = Timer(5.0, hello)
 t.start() 
