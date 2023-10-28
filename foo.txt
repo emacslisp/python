@@ -48,9 +48,9 @@ width="300" height="83" border="0" alt="dict.org"></a>
         <option value="wn">WordNet (r) 3.0 (2006)
         <option value="moby-thesaurus">Moby Thesaurus II by Grady Ward, 1.0
         <option value="elements">The Elements (07Nov00)
-        <option value="vera">V.E.R.A. -- Virtual Entity of Relevant Acronyms (September 2014)
+        <option value="vera">V.E.R.A. -- Virtual Entity of Relevant Acronyms (February 2016)
         <option value="jargon">The Jargon File (version 4.4.7, 29 Dec 2003)
-        <option value="foldoc">The Free On-line Dictionary of Computing (18 March 2015)
+        <option value="foldoc">The Free On-line Dictionary of Computing (30 December 2018)
         <option value="easton">Easton's 1897 Bible Dictionary
         <option value="hitchcock">Hitchcock's Bible Names Dictionary (late 1800's)
         <option value="bouvier">Bouvier's Law Dictionary, Revised 6th Ed (1856)
@@ -59,60 +59,154 @@ width="300" height="83" border="0" alt="dict.org"></a>
         <option value="gaz2k-counties">U.S. Gazetteer Counties (2000)
         <option value="gaz2k-places">U.S. Gazetteer Places (2000)
         <option value="gaz2k-zips">U.S. Gazetteer Zip Code Tabulation Areas (2000)
-        <option value="fd-tur-eng">Turkish-English FreeDict Dictionary ver. 0.2.1
-        <option value="fd-por-deu">Portuguese-German FreeDict Dictionary ver. 0.1.1
-        <option value="fd-nld-eng">Dutch-English Freedict Dictionary ver. 0.1.3
-        <option value="fd-eng-ara">English-Arabic FreeDict Dictionary ver. 0.6.2
-        <option value="fd-spa-eng">Spanish-English FreeDict Dictionary ver. 0.1.1
-        <option value="fd-eng-hun">English-Hungarian FreeDict Dictionary ver. 0.1
-        <option value="fd-ita-eng">Italian-English FreeDict Dictionary ver. 0.1.1
-        <option value="fd-wel-eng">Welsh-English Freedict dictionary
-        <option value="fd-eng-nld">English-Dutch FreeDict Dictionary ver. 0.1.1
-        <option value="fd-fra-eng">French-English FreeDict Dictionary ver. 0.3.4
-        <option value="fd-tur-deu">Turkish-German FreeDict Dictionary ver. 0.1.1
-        <option value="fd-swe-eng">Swedish-English FreeDict Dictionary ver. 0.1.1
-        <option value="fd-nld-fra">Nederlands-French FreeDict Dictionary ver. 0.1.1
-        <option value="fd-eng-swa">English-Swahili xFried/FreeDict Dictionary
-        <option value="fd-deu-nld">German-Dutch FreeDict Dictionary ver. 0.1.1
-        <option value="fd-fra-deu">French-German FreeDict Dictionary ver. 0.1.1
-        <option value="fd-eng-cro">English-Croatian Freedict Dictionary
-        <option value="fd-eng-ita">English-Italian FreeDict Dictionary ver. 0.1.1
-        <option value="fd-eng-lat">English-Latin FreeDict Dictionary ver. 0.1.1
-        <option value="fd-lat-eng">Latin-English FreeDict Dictionary ver. 0.1.1
-        <option value="fd-fra-nld">French-Dutch FreeDict Dictionary ver. 0.1.2
-        <option value="fd-ita-deu">Italian-German FreeDict Dictionary ver. 0.1.1
-        <option value="fd-eng-hin">English-Hindi FreeDict Dictionary ver. 1.5.1
-        <option value="fd-deu-eng">German-English FreeDict Dictionary ver. 0.3.4
-        <option value="fd-por-eng">Portuguese-English FreeDict Dictionary ver. 0.1.1
-        <option value="fd-lat-deu">Latin - German FreeDict dictionary ver. 0.4
-        <option value="fd-jpn-deu">Japanese-German FreeDict Dictionary ver. 0.1.1
-        <option value="fd-eng-deu">English-German FreeDict Dictionary ver. 0.3.6
-        <option value="fd-eng-scr">English-Serbo-Croat Freedict dictionary
-        <option value="fd-eng-rom">English-Romanian FreeDict Dictionary ver. 0.6.1
-        <option value="fd-iri-eng">Irish-English Freedict dictionary
-        <option value="fd-cze-eng">Czech-English Freedict dictionary
-        <option value="fd-scr-eng">Serbo-Croat-English Freedict dictionary
-        <option value="fd-eng-cze">English-Czech fdicts/FreeDict Dictionary
-        <option value="fd-eng-rus">English-Russian FreeDict Dictionary ver. 0.3
-        <option value="fd-afr-deu">Afrikaans-German FreeDict Dictionary ver. 0.3
-        <option value="fd-eng-por">English-Portuguese FreeDict Dictionary ver. 0.2.2
-        <option value="fd-hun-eng">Hungarian-English FreeDict Dictionary ver. 0.3.1
-        <option value="fd-eng-swe">English-Swedish FreeDict Dictionary ver. 0.1.1
-        <option value="fd-deu-ita">German-Italian FreeDict Dictionary ver. 0.1.1
-        <option value="fd-cro-eng">Croatian-English Freedict Dictionary
-        <option value="fd-dan-eng">Danish-English FreeDict Dictionary ver. 0.2.1
-        <option value="fd-eng-tur">English-Turkish FreeDict Dictionary ver. 0.2.1
-        <option value="fd-eng-spa">English-Spanish FreeDict Dictionary ver. 0.2.1
-        <option value="fd-nld-deu">Dutch-German FreeDict Dictionary ver. 0.1.1
-        <option value="fd-deu-por">German-Portuguese FreeDict Dictionary ver. 0.2.1
-        <option value="fd-swa-eng">Swahili-English xFried/FreeDict Dictionary
-        <option value="fd-hin-eng">English-Hindi Freedict Dictionary [reverse index]
-        <option value="fd-deu-fra">German-French FreeDict Dictionary ver. 0.3.1
-        <option value="fd-eng-fra">English-French FreeDict Dictionary ver. 0.1.4
-        <option value="fd-slo-eng">Slovak-English Freedict dictionary
-        <option value="fd-gla-deu">Scottish Gaelic-German FreeDict Dictionary ver. 0.1.1
-        <option value="fd-eng-wel">English-Welsh Freedict dictionary
-        <option value="fd-eng-iri">English-Irish Freedict dictionary
+        <option value="fd-hrv-eng">Croatian-English FreeDict Dictionary ver. 0.1.2
+        <option value="fd-fin-por">suomi-português FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fin-bul">suomi-български език FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fra-bul">français-български език FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-deu-swe">Deutsch-Svenska FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fin-swe">suomi-Svenska FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-jpn-rus">Japanese-Russian FreeDict Dictionary ver. 0.1
+        <option value="fd-wol-fra">Wolof - French FreeDict dictionary ver. 0.1
+        <option value="fd-fra-pol">français-język polski FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-deu">English-German FreeDict Dictionary ver. 0.3.7
+        <option value="fd-deu-nld">German-Dutch FreeDict Dictionary ver. 0.1.4
+        <option value="fd-por-eng">Portuguese-English FreeDict Dictionary ver. 0.2
+        <option value="fd-spa-deu">Spanish-German FreeDict Dictionary ver. 0.1
+        <option value="fd-ces-eng">Czech-English FreeDict Dictionary ver. 0.2.3
+        <option value="fd-swe-fin">Svenska-suomi FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-pol">English - Polish Piotrowski+Saloni/FreeDict dictionary ver. 0.2
+        <option value="fd-pol-nor">język polski-Norsk FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-rom">English-Romanian FreeDict Dictionary ver. 0.6.3
+        <option value="fd-eng-fra">English-French FreeDict Dictionary ver. 0.1.6
+        <option value="fd-fin-ell">suomi-ελληνικά FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-lit">English-Lithuanian FreeDict Dictionary ver. 0.7.2
+        <option value="fd-ckb-kmr">Sorani-Kurmanji Ferheng/FreeDict Dictionary ver. 0.2
+        <option value="fd-ita-eng">Italian-English FreeDict Dictionary ver. 0.2
+        <option value="fd-pol-eng">język polski-English FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-gle-eng">Irish-English FreeDict Dictionary ver. 0.2
+        <option value="fd-eng-tur">English-Turkish FreeDict Dictionary ver. 0.3
+        <option value="fd-gle-pol">Irish-Polish FreeDict Dictionary ver. 0.1.2
+        <option value="fd-pol-deu">język polski-Deutsch FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fra-spa">français-español FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-lit-eng">Lithuanian-English FreeDict Dictionary ver. 0.7.2
+        <option value="fd-eng-jpn">English-日本語 (にほんご) FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-ara-eng">Arabic-English FreeDict Dictionary ver. 0.6.3
+        <option value="fd-nld-ita">Nederlands-italiano FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-lat">English-Latin FreeDict Dictionary ver. 0.1.2
+        <option value="fd-eng-hun">English-Hungarian FreeDict Dictionary ver. 0.2.1
+        <option value="fd-ita-jpn">italiano-日本語 (にほんご) FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-dan-eng">Danish-English FreeDict Dictionary ver. 0.2.2
+        <option value="fd-hun-eng">Hungarian-English FreeDict Dictionary ver. 0.4.1
+        <option value="fd-pol-gle">Polish-Irish FreeDict Dictionary ver. 0.1.2
+        <option value="fd-fra-fin">français-suomi FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-nld-swe">Nederlands-Svenska FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-nld-eng">Dutch-English Freedict Dictionary ver. 0.2
+        <option value="fd-deu-kur">German-Kurdish Ferheng/FreeDict Dictionary ver. 0.2.2
+        <option value="fd-deu-spa">Deutsch-español FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-afr">English-Afrikaans FreeDict Dictionary ver. 0.1.3
+        <option value="fd-eng-swe">English-Swedish FreeDict Dictionary ver. 0.2
+        <option value="fd-jpn-deu">Japanese-German FreeDict Dictionary ver. 0.2.0
+        <option value="fd-epo-eng">Esperanto-English FreeDict dictionary ver. 1.0.1
+        <option value="fd-pol-nld">język polski-Nederlands FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-lat-deu">Lateinisch-Deutsch FreeDict-Wörterbuch ver. 1.0.3
+        <option value="fd-eng-cym">Eurfa Saesneg, English-Welsh Eurfa/Freedict dictionary ver. 0.2.3
+        <option value="fd-por-spa">português-español FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-spa">English-Spanish FreeDict Dictionary ver. 0.3
+        <option value="fd-swe-tur">Svenska-Türkçe FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-tur-eng">Turkish-English FreeDict Dictionary ver. 0.3
+        <option value="fd-tur-deu">Turkish-German FreeDict Dictionary ver. 0.2
+        <option value="fd-pol-fra">język polski-français FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-por">English-Portuguese FreeDict Dictionary ver. 0.3
+        <option value="fd-ita-pol">italiano-język polski FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-ces">English-Czech dicts.info/FreeDict Dictionary ver. 0.1.3
+        <option value="fd-deu-tur">German-Turkish Ferheng/FreeDict Dictionary ver. 0.2.2
+        <option value="fd-fra-jpn">français-日本語 (にほんご) FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-cym-eng">Eurfa Cymraeg, Welsh-English Eurfa/Freedict dictionary ver. 0.2.3
+        <option value="fd-bre-fra">Breton-French FreeDict Dictionary (Geriadur Tomaz) ver. 0.8.3
+        <option value="fd-jpn-fra">Japanese-French FreeDict Dictionary ver. 0.1
+        <option value="fd-nld-deu">Dutch-German FreeDict Dictionary ver. 0.2
+        <option value="fd-eng-nld">English-Dutch FreeDict Dictionary ver. 0.2
+        <option value="fd-deu-por">German-Portuguese FreeDict Dictionary ver. 0.2.2
+        <option value="fd-eng-hrv">English-Croatian FreeDict Dictionary ver. 0.2.2
+        <option value="fd-mkd-bul">Macedonian - Bulgarian FreeDict Dictionary ver. 0.1.1
+        <option value="fd-swe-eng">Swedish-English FreeDict Dictionary ver. 0.2
+        <option value="fd-pol-spa">język polski-español FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-jpn-eng">Japanese-English FreeDict Dictionary ver. 0.1
+        <option value="fd-eng-ell">English - Modern Greek XDXF/FreeDict dictionary ver. 0.1.1
+        <option value="fd-ita-por">italiano-português FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-pol-swe">język polski-Svenska FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-pol-fin">język polski-suomi FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-kur-tur">Kurdish-Turkish Ferheng/FreeDict Dictionary ver. 0.1.2
+        <option value="fd-ita-swe">italiano-Svenska FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-swh">English-Swahili xFried/FreeDict Dictionary ver. 0.2.2
+        <option value="fd-kha-eng">Khasi-English FreeDict Dictionary ver. 0.2.2
+        <option value="fd-fin-eng">suomi-English FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-hin">English-Hindi FreeDict Dictionary ver. 1.6
+        <option value="fd-spa-eng">Spanish-English FreeDict Dictionary ver. 0.3
+        <option value="fd-afr-eng">Afrikaans-English FreeDict Dictionary ver. 0.2.2
+        <option value="fd-ita-fin">italiano-suomi FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-fin">English-suomi FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fra-ita">français-italiano FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-deu-rus">Deutsch-Русский FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-deu-bul">Deutsch-български език FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-deu-pol">Deutsch-język polski FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-srp-eng">Serbian - English FreeDict Dictionary ver. 0.2
+        <option value="fd-kur-deu">Kurdish-German Ferheng/FreeDict Dictionary ver. 0.1.2
+        <option value="fd-spa-por">Spanish-Portuguese FreeDict Dictionary ver. 0.2.1
+        <option value="fd-swe-pol">Svenska-język polski FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-swe-rus">Svenska-Русский FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-nld-spa">Nederlands-español FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-swh-pol">Swahili-Polish SSSP/FreeDict Dictionary ver. 0.2.3
+        <option value="fd-oci-cat">Lenga d'òc - Català FreeDict Dictionary ver. 0.1.1
+        <option value="fd-ita-rus">italiano-Русский FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fra-ell">français-ελληνικά FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-srp">English-Serbian FreeDict Dictionary ver. 0.1.3
+        <option value="fd-fra-tur">français-Türkçe FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fra-eng">French-English FreeDict Dictionary ver. 0.4.1
+        <option value="fd-ita-ell">italiano-ελληνικά FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-kur-eng">Kurdish-English Ferheng/FreeDict Dictionary ver. 1.2
+        <option value="fd-swe-deu">Svenska-Deutsch FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-swe-fra">Svenska-français FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-swe-lat">Svenska-latine FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-swe-ell">Svenska-ελληνικά FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-eng-rus">English-Russian FreeDict Dictionary ver. 0.3.1
+        <option value="fd-pol-por">język polski-português FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-gla-deu">Scottish Gaelic-German FreeDict Dictionary ver. 0.2
+        <option value="fd-eng-ita">English-Italian FreeDict Dictionary ver. 0.1.2
+        <option value="fd-pol-ita">język polski-italiano FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fra-swe">français-Svenska FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-isl-eng">íslenska - English FreeDict Dictionary ver. 0.1.1
+        <option value="fd-swe-spa">Svenska-español FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-nno-nob">Norwegian Nynorsk-Norwegian Bokmål FreeDict Dictionary ver. 0.1.1
+        <option value="fd-swe-ita">Svenska-italiano FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fra-deu">français-Deutsch FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fin-ita">suomi-italiano FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-nld-fra">Nederlands-French FreeDict Dictionary ver. 0.2
+        <option value="fd-eng-ara">English-Arabic FreeDict Dictionary ver. 0.6.3
+        <option value="fd-slk-eng">Slovak-English FreeDict Dictionary ver. 0.2.1
+        <option value="fd-fra-por">français-português FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-spa-ast">Spanish - Asturian FreeDict Dictionary ver. 0.1.1
+        <option value="fd-fin-jpn">suomi-日本語 (にほんご) FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-deu-ita">German-Italian FreeDict Dictionary ver. 0.2
+        <option value="fd-swh-eng">Swahili-English xFried/FreeDict Dictionary ver. 0.4.4
+        <option value="fd-fin-nor">suomi-Norsk FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-fra-nld">French-Dutch FreeDict Dictionary ver. 0.2
+        <option value="fd-lat-eng">Latin-English FreeDict Dictionary ver. 0.1.2
+        <option value="fd-eng-bul">English-български език FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-deu-fra">Deutsch-français FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-swe-bul">Svenska-български език FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-deu-eng">German-English FreeDict Dictionary ver. 0.3.5
+        <option value="fd-pol-rus">język polski-Русский FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-ita-deu">Italian-German FreeDict Dictionary ver. 0.2
+        <option value="fd-eng-gle">English-Irish FreeDict Dictionary ver. 0.3.2
+        <option value="fd-swe-por">Svenska-português FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-afr-deu">Afrikaans-German FreeDict Dictionary ver. 0.3.2
+        <option value="fd-por-deu">Portuguese-German FreeDict Dictionary ver. 0.2
+        <option value="fd-fra-bre">French-Breton FreeDict Dictionary (Geriadur Tomaz) ver. 0.2.7
+        <option value="fd-san-deu">Sanskrit-German FreeDict Dictionary ver. 0.2.2
+        <option value="fd-kha-deu">Khasi - German FreeDict Dictionary ver. 0.1.3
+        <option value="fd-fra-rus">français-Русский FreeDict+WikDict dictionary ver. 2018.09.13
+        <option value="fd-pol-ell">język polski-ελληνικά FreeDict+WikDict dictionary ver. 2018.09.13
         <option value="english">English Monolingual Dictionaries
         <option value="trans">Translating Dictionaries
         <option value="all">All Dictionaries (English-Only and Translating)
@@ -124,8 +218,6 @@ width="300" height="83" border="0" alt="dict.org"></a>
 	<a href="/bin/Dict?Form=Dict1&Query=00-database-info&Strategy=*&Database=*">Database copyright information</a>
 	<br>
 	<a href="/bin/Dict?Form=Dict4">Server information</a>
-        <br>
-	<font"><b><a href="/w/">Wiki: Resources, links, and other information</a></b></font>
     </center>
 </form>
 <hr>
@@ -281,7 +373,7 @@ width="300" height="83" border="0" alt="dict.org"></a>
   
   
 
-</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=foldoc">The Free On-line Dictionary of Computing (18 March 2015) </a>:
+</pre><b>From <a href="/bin/Dict?Form=Dict3&Database=foldoc">The Free On-line Dictionary of Computing (30 December 2018) </a>:
 </b><pre>
 
   search
@@ -357,8 +449,7 @@ width="300" height="83" border="0" alt="dict.org"></a>
 <hr>
     <center>
     <font size="-1">
-	Questions or comments about this site?
-	Contact <a href="mailto:webmaster@dict.org">webmaster@dict.org</a>
+	Contact=<a href="mailto:webmaster@dict.org">webmaster@dict.org</a> Specification=<a href="https://tools.ietf.org/html/rfc2229">RFC 2229</a>
 	<br>
     </font>
 </center>
