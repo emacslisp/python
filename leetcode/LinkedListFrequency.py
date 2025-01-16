@@ -7,6 +7,7 @@ from typing import Optional
 
 from leetcode import ListNode
 
+
 class Solution:
     def frequenciesOfElements(self, head: Optional[ListNode]) -> Optional[ListNode]:
         p = head
